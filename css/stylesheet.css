@@ -1,0 +1,35 @@
+body {
+    background-image: url(http://41.media.tumblr.com/a2ac9ad785777e853bbd4262a49c00eb/tumblr_nzhi9gFOig1tf8vylo1_1280.png);
+}
+
+.content-box {
+    background-color: #eeeeee;
+    margin-top: 15%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 3px 16px #444444;
+}
+
+.content-box p {
+    text-align: center;
+    margin-top: 24px;
+    color: #333;
+}
+
+.content-box h2 {
+    text-align: right;
+    color: #333;
+}
+
+.quote-button {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.contact p {
+    position: fixed;
+    bottom: 0px;
+    left: 12px;
+    color: #eeeeee;
+}
