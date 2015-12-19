@@ -23,6 +23,21 @@ $(document).ready(function() {
             text: "When you do things right, people won't be sure you've done anything at all.",
             author: "Cosmic Entity from Futurama"
         });
+        
+        quotes.push({
+            text: "I don't know about angels, but it's fear that gives men wings.",
+            author: "Max Payne"
+        });
+        
+        quotes.push({
+            text: "Someone who can't sacrifice anything can't ever change anything. To defeat that monster, you have to throw aside your humanity.",
+            author: "Armin Arlert"
+        });
+        
+        quotes.push({
+            text: "I just want to die knowing that something was different because I was here.",
+            author: "Patient from House, M.D."
+        });
 
         var i = getRandomInt(0, quotes.length - 1);
     
