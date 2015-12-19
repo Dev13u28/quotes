@@ -38,6 +38,11 @@ $(document).ready(function() {
             text: "I just want to die knowing that something was different because I was here.",
             author: "Patient from House, M.D."
         });
+        
+        quotes.push({
+            text: "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+            author: "Le Petit Prince"
+        })
 
         var i = getRandomInt(0, quotes.length - 1);
     
