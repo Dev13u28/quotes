@@ -42,7 +42,7 @@ $(document).ready(function() {
         quotes.push({
             text: "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
             author: "Le Petit Prince"
-        })
+        });
 
         var i = getRandomInt(0, quotes.length - 1);
     
