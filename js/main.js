@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    generate();
-    
-    function generate() {
+
         var quotes = [];
 
         quotes.push({
@@ -40,9 +38,13 @@ $(document).ready(function() {
         });
         
         quotes.push({
-            text: "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+            text: "It is only with the heart that one can see rightly. What is essential is invisible to the eye.",
             author: "Le Petit Prince"
         });
+    
+    var random = generate();
+    
+    function generate() {
 
         var i = getRandomInt(0, quotes.length - 1);
     
@@ -52,10 +54,16 @@ $(document).ready(function() {
 
         $('.quote-text').text(quotes[i].text);
         $('.author').text("- " + quotes[i].author);
+        
+        return i;
     }
     
     $(".quote-button").on( "click", function() {
-        generate();
+        random = generate();
+    });
+    
+    $(".tweet-button").on('click', function() {
+        window.open("https://twitter.com/intent/tweet?text=" + quotes[random].text);
     });
     
 });
